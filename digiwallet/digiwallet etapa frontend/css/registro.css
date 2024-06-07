@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(0,0,3);
+background: -moz-linear-gradient(176deg, rgba(0,0,3,1) 0%, rgba(3,47,189,1) 35%, rgba(19,79,157,0.9434961484593838) 56%, rgba(0,212,255,1) 100%);
+background: -webkit-linear-gradient(176deg, rgba(0,0,3,1) 0%, rgba(3,47,189,1) 35%, rgba(19,79,157,0.9434961484593838) 56%, rgba(0,212,255,1) 100%);
+background: linear-gradient(176deg, rgba(0,0,3,1) 0%, rgba(3,47,189,1) 35%, rgba(19,79,157,0.9434961484593838) 56%, rgba(0,212,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000003",endColorstr="#00d4ff",GradientType=1);
+}
+h1{ 
+    color: aliceblue;
+}
+.form-registro{
+    width: 500px;
+    /* background: black; */
+    background-color: rgb(12, 17, 17);
+    padding: 20px;
+    margin:auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 7px 13px 37px #000;
+}
+img{
+    width: 40px;
+    aspect-ratio: 16/16;
+    /*height: 40px;*/
+    margin: 10px;
+}
+nav{
+    border-radius: 5px;
+}
+nav>div{
+    background: rgb(239, 241, 242);
+}
+nav>div>span{
+    color: rgb(4, 4, 144);
+    font-size: 30px;
+}
+header>div>div{
+    color: rgb(45, 214, 23);
+    font-size: 60px;
+    background-color: rgb(6, 6, 56);
+    border-radius: 10px;
+    margin: 5px;
+    padding: auto;
+}
+header{
+    margin: 5px;
+}
+header>div>h2{
+    color: rgb(4, 4, 144);
+    background: rgb(239, 241, 242);
+    border-radius: 5px;
+}
+.form-registro h4{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.controls {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 10px;    
+    border: 2px solid #5052ec;
+}
+#condiciones{
+    font-size: small;
+    text-align: center;
+}
+
+#condiciones a{
+    text-decoration: none;
+    color: #5052ec;
+    cursor: pointer;
+}
+
+#condiciones a:hover{
+    color: #5ebdf5;
+    text-decoration: underline;
+    font-size: 15px;
+}
+
+.form-registro button {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 12px;
+    border: none;
+    background: #5099ec;
+    color: white;
+    font-size: 15px;
+}
+
+.form-registro button:hover {
+    cursor: pointer;
+    background: #2b91f1;
+}
+
+.form-registro p {
+    text-align: center;
+    font-size: medium;
+}
+
+.form-registro p a {
+    text-decoration: none;
+}
+.form-registro p a:hover{
+    color: #5ebdf5;
+    text-decoration: underline;
+    font-size: 110%;
+}
+
+/*
+form:has(:focus:invalid)
+input{
+    color: red;
+}
+form:has(:focus:valid)
+input{
+    color: blue;
+}
+*/
